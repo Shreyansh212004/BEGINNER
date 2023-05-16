@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .footer{
+        background-color:gray;
+        display: inline-block;
+        width: 2290px;
+        height: 30vh;
+    }
+    p{
+        display: inline-block;
+        color: azure;
+        font-size: 40px;
+        position: relative;
+        left: 583px;
+    }
+    .name>input{
+        width: 600px;
+        height: 40px;
+        /* border-radius: 50px solid  black; */
+    }
+    .name{
+        display: inline-block;
+        position: relative;
+        left: 100px;
+
+    }
+    .email>input{
+        width: 600px;
+        height: 40px;
+        /* border-radius: 50px solid  black; */
+    }
+    .email{
+        display: inline-block;
+        position: relative;
+        left:250px;
+        
+
+    }
+    .hold
+    {
+        display: inline-block;
+        position: relative;
+        left: 280px;
+        
+    }
+    :placeholder-shown
+    {
+        font-size: 25px;
+        font-weight:lighter;
+    }
+    .btn1
+    {
+        width: 150px;
+        height: 50px;
+        border-radius: 4px;
+        color: white;
+        background-color: black;
+        position: relative;
+        top: 50px;
+        left: 990px;
+        font-size: 20px;
+    }
+
+
+ 
+
+
+</style>
+
+<body>
+    <div class="footer">
+        <div class="top">
+            <p>Planning a special Events? BE in touch. We're here to help you! </p>
+        </div>
+        <div class="hold">
+            <div class="name">
+                <input type="text"  placeholder="NAME">
+            </div>
+            <div class="email">
+    
+                <input type="text"  placeholder="Email">
+            </div>
+        </div>
+        <div> <button class="btn1">Connect</button></div>
+       
+       
+        
+    </div>
+    
+</body>
+
+</html>
